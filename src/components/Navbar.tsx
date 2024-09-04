@@ -7,7 +7,7 @@ import Link from "next/link";
 function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
     return (
-        <div className={utils("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}>
+        <div className={utils("fixed top-10 bg-black  inset-x-0 max-w-2xl mx-auto z-50", className)}>
 
             <Menu setActive={setActive}>
                 <MenuItem setActive={setActive} active={active} item="Home">
