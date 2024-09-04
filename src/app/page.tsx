@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import Services from "@/components/Services";
+import WhyChooseUs from"@/components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       
       <HeroSection />
       <Services/>
+      <WhyChooseUs/>
     </main>
   );
 }
