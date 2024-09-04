@@ -1,5 +1,5 @@
 {
-    "services": [
+    "myservices": [
         {
             "id": 1,
             "title": "Website Development",
@@ -33,7 +33,7 @@
             "slug": "drumming-mastery",
             "description": "Master the drums with our comprehensive course covering all skill levels.",
             "price": 129.99,
-            "isFeatured": false,
+            "isFeatured": true,
             "image": "/courses/drumming.jpg"
         },
         {
@@ -42,7 +42,7 @@
             "slug": "jazz-improvisation",
             "description": "Learn the art of jazz improvisation with this course designed for all levels.",
             "price": 139.99,
-            "isFeatured": false,
+            "isFeatured": true,
             "image": "/courses/jazz.jpg"
         },
         {
@@ -60,7 +60,7 @@
             "slug": "songwriting-essentials",
             "description": "Learn the essentials of songwriting to express your musical creativity.",
             "price": 159.99,
-            "isFeatured": false,
+            "isFeatured": true,
             "image": "/courses/song-writing.jpg"
         },
         {
